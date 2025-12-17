@@ -22,7 +22,8 @@ window.onload = function() {
         let randomAdjective = Math.floor(Math.random() * adjective.length) 
         let randomNoun = Math.floor(Math.random() * noun.length) 
         let randomTopLevelDomain = Math.floor(Math.random() * topLevelDomain.length)
-        console.log(topLevelDomain[randomTopLevelDomain])
+       
+        console.log(`${pronoun[randomPronoun]}${adjective[randomAdjective]}${noun[randomNoun]}${topLevelDomain[randomTopLevelDomain]}`)
         }
       }
     }
